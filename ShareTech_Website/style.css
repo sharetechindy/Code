@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body,
+main {
+  height: 100%;
+  margin:0px;
+  background-color: #daebdb;
+  color: #000000;
+  font-family: Verdana, sans-serif;
+}
+
+#homehero {
+  height: 250px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#homehero {
+  background-image: url("images/smart-farming-with-agriculture-iot.jpg");
+}

@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(238, 218, 174);
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #6b3707;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid, #000000;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Authentication Section */
+#auth {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+#auth h2 {
+  text-align: center;
+}
+
+#auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#auth input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#auth button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #6b3707;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#auth button:hover {
+  background-color: #ec9c32;
+}
+
+/* Posts Feed */
+#feed {
+  width: 100%;
+  max-width: 600px;
+}
+
+#post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#post-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+#post-form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #5c3406;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#post-form button:hover {
+  background-color: #ec9c32;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post p {
+  margin: 0 0 1rem 0;
+}
+
+.post button {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #5a3505;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post button:hover {
+  background-color: #eb9c41;
+}
+
+.comments {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid #ccc;
+}
+
+.comment {
+  margin-bottom: 0.5rem;
+}
+
+.comment h4 {
+  margin: 0 0 0.25rem 0;
+}
+
+.comment p {
+  margin: 0;
+}
+
+/* Chat Section */
+#chat {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+#chat-window {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+
+#chat-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: calc(100% - 100px);
+  margin-right: 1rem;
+}
+
+#send-button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#send-button:hover {
+  background-color: #555;
+}
+
+/* Profile page styles*/
+
+.profile-header {
+  background-color: #b4651be8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.profile-picture {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #000000; 
+}
+
+.profile-info {
+  text-align: center;
+  margin: 20px;
+}
+.profile-info h1 {
+  margin: 0;
+}
+.profile-info p {
+  color: #5f3a09;
+}
+.posts {
+  margin: 20px;
+}
+.profile-post {
+  background-color: rgb(240, 228, 204);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid, #000000;
+}

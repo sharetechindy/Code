@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home::User</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="profile-header">
+        <h1>Home Page</h1>
+    </div>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="#logout">Logout</a></li>
+        </ul>
+      </nav>
+    <!-- Posts Feed -->
+    <section id="feed">
+        <h2>Posts</h2>
+        <div id="post-form">
+          <textarea placeholder="What's on your mind?" required></textarea>
+          <button type="submit">Post</button>
+        </div>
+        <div id="posts">
+          <!-- Example Post -->
+          <div class="post">
+            <h3>Username</h3>
+            <p>This is an example post.</p>
+            <button>Like</button>
+            <button>Comment</button>
+            <div class="comments">
+              <!-- Example Comment -->
+              <div class="comment">
+                <h4>Username</h4>
+                <p>This is an example comment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</body>
+</html>
