@@ -22,7 +22,7 @@ function isValidState(state) {
 }
 
 function getweather() {
-  const apikey = "0238331e95e17f774e7800c01cc78a04";
+  const apikey = ;
   const city = document.getElementById("cityInput").value;
   const state = document.getElementById("stateInput").value;
 
