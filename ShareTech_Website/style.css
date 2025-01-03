@@ -7,8 +7,8 @@ body,
 main {
   height: 100%;
   margin:0px;
-  background-color: #daebdb;
-  color: #000000;
+  background-color: #470250;
+  color: #fff;
   font-family: Verdana, sans-serif;
 }
 
@@ -20,4 +20,8 @@ main {
 
 #homehero {
   background-image: url("images/smart-farming-with-agriculture-iot.jpg");
+}
+
+link a{
+  color:#fff;
 }
