@@ -9,6 +9,10 @@ body {
   background-color: rgb(238, 218, 174);
 }
 
+#menuItems {
+  display: none;
+}
+
 /* Navigation Bar */
 nav {
   background-color: #6b3707;

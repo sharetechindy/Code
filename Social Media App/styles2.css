@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4a047;
+}
+
+.header {
+    background-image: url('images/freepik__digital-painting-a-family-of-three-a-woman-a-child__88389.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.body-container {
+    display: flex;
+    padding: 5px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sidebar, .friends {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    width: 75%;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #e4a047; /* Optional: background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.sidebar nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+button#toggleMenu {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2em; /* Match the font size of h1 */
+}
+
+button#menuToggle:hover {
+    background-color: transparent;
+}
+.menuItems {
+    display: none;
+  }
+/* Media query for smaller viewports */
+@media (max-width: 600px) {
+    .body-container {
+        flex-direction: column;
+    }
+
+    .left-column, .content {
+        width: 100%; /* Make the sections full width */
+        margin: 5px 0; /* Reduce margin */
+    }
+
+    .sidebar nav {
+        padding: 5px; /* Reduce padding */
+    }
+
+    .sidebar nav a {
+        margin: 2px 0; /* Reduce margin between links */
+    }
+}
